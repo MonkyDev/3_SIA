@@ -1,0 +1,67 @@
+/* Header */
+.main-header{
+	border-top: 6px solid #1a2226;
+}
+
+#logo-mod{
+	background-color: #222D32;
+}
+/* /Header */
+
+/* Modal */
+.modal{
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+/* /Modal */
+
+/* Tables */
+thead th{
+	text-align: center;
+}
+/* /Tables */
+
+/* Alerts */
+.alert-danger{
+	border-left: 5px solid #c23321;
+}
+
+.alert-info{
+	border-left: 5px solid #0097bc;
+}
+
+.alert-warning{
+	border-left: 5px solid #c87f0a;
+}
+
+.alert-success{
+	border-left: 5px solid #00733e;
+}
+/* /Alerts */
+
+/* General Form Elements */
+.form-group textarea{
+	height: 100px;
+	min-height: 100px;
+	min-width: 100%;
+	max-width: 100%;
+}
+
+.breadcrumb{
+	text-align: right;
+}
+/* /General Form Elements */

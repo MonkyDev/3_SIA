@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Horarios | login</title>
+<link rel="icon" type="image/png" href="http://localhost:8000/dist/img/calendar-b.png" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="http://localhost:8000/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://localhost:8000/css/login.css">
+</head>
+
+<body class="text-center">
+	<form class="form-signin" action="http://localhost:8000/login" method="post">
+      <input type="hidden" name="_token" value="ChkQrxtEovfWlggZwDzjBzlMOVubtGXzOUEuuopX">	  
+      <img class="mb-4" src="http://localhost:8000/dist/img/calendar-b.png" alt="" width="72" height="72">
+	  <h1 class="h3 mb-3 font-weight-normal">Iniciar sesión</h1>
+	  
+	  <label for="User" class="sr-only">Usuario</label>
+	  <input id="nc" type="text" class="form-control" 
+	  placeholder="No. de control" name="nc" value="" required autofocus>
+	  	  
+	  <label for="Password" class="sr-only">Contraseña</label>
+	  <input id="pass" type="password" class="form-control" 
+	  placeholder="Contraseña" name="pass" value="" required>
+
+	  	  
+	  <button class="btn btn-lg btn-secondary btn-block" type="submit">Iniciar</button>
+	  <p class="mt-5 mb-3 text-muted"><a href="#">Olvidé mi contraseña</a></p>
+	</form>
+</body>
+</html>
+
